@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Landing page de promoção" />
+    <meta name="author" content="Gama Academy/Leandro Trombini" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Friday - GamaAcademy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="logo">StockGold</h2>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </header>
+    <section class="container">
+
+        <video class="video-slide" src="./assets/bg1.mp4" muted loop autoplay></video>
+        <div class="content">
+            <div class="text">
+                <h2>Seu Estilo</h2>
+                <h3>Do seu jeito</h3>
+                <p>Produtos com até 50% de desconto. Roupas, Sapatos e acessórios. Você quer acesso a lista de produtos em promoção? Clique em
+                    <strong>Quero receber</strong> e aproveite.</p>
+                <a href="#form">Quero receber</a>
+            </div>
+        </div>
+    </section>
+    <section class="container-2">
+        <h2 class="page-header">Receba o cupom de desconto</h2>
+        <div id="form-group" class="form-group">
+            <form id="form">
+                <div class="form-content">
+                    <div class="login-form">
+                        <div class="title">Cadastre</div>
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="name" id="name" placeholder="Nome" required />
+
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="email" id="email" placeholder="Email" required />
+
+                            </div>
+
+                            <div class="button input-box">
+                                <i class=""></i>
+                                <input type="submit" />
+
+                            </div>
+                            <div class="text1">Vai perder essa oferta? <label for="">Cadastre - se agora</label> </div>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="./assets/bg2.jpg" alt="foto promoção">
+                    </div>
+                </div>
+        </div>
+        </form>
+        </div>
+        <footer class="footer-section">
+            <ul class="sci">
+                <li><a href="#"><img src="./assets/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="./assets/twitter.png" alt="twiter"></a></li>
+                <li><a href="#"><img src="./assets/instagram.png" alt="instagram"></a></li>
+            </ul>
+            <p>&copy; Leandro Trombini - Gama Academy. @2021</p>
+        </footer>
+    </section>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
